@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#body{
+    width: 1420px;
+    margin: 0px auto;
+}
+/*顶部*/
+    #header>.wrapper>.nav>:nth-child(1)>a{
+        color: #fff;
+        border: 0px solid transparent;
+        border-bottom: 3px solid #fff;
+    }
+    .nav-item:hover .observation{
+        display: block;
+    }
+/*顶部的状态*/
+    .top{
+        height: 61px;
+    }
+    .header-nav{
+        background-color: #1f1d1e;
+        height: 61px;
+        position: relative;
+    }
+    .suspension{
+        position: fixed;
+        width: 1420px;
+        z-index: 99;
+        top: 0;
+        opacity: 0.9;
+        margin: 0 auto;
+    }
+    .header-nav>.wrappers{
+        margin: 0 auto;
+        width: 1220px;
+        height: 100%;
+        background: #1f1d1e;
+    }
+    .header-nav>.wrappers>a{
+        color: #916f53;
+        float: right;
+        width: 138px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        border: 1px solid #916f53;
+        margin: 13px 0 0 40px;
+        font-size: 14px;
+    }
+    .header-nav>.wrappers>a:hover{
+        background-color: #ccac82;
+        color: #2d2522;
+        border: 1px solid #CCAC85;
+    }
+    /*分页*/
+    .header-nav>.wrappers>div{
+        float: right;
+        height: 57px;
+    }
+    .header-nav>.wrappers>div>a:nth-child(2){
+        border-bottom: 3px solid #ccac82;
+        color: #ccac82;
+    }
+    .header-nav>.wrappers>div>a{
+        display: inline-block;
+        font-size: 13px;
+        line-height: 57px;
+        border: 0px solid red;
+        margin: 0 12px;
+        color: #916f53;
+    }
+    .header-nav>.wrappers>div>a:hover{
+        border-bottom: 3px solid #ccac82;
+        color: #ccac82;
+    }
+    .header-nav>.wrappers>span{
+        float: left;
+        color: #916f53;
+        height: 57px;
+        line-height: 57px;
+    }
+/*通用属性*/
+    #sections{
+        width: 1420px;
+    }
+    /*文字通用*/
+    .top_p{
+        font-size: 40px;
+        color: #c4a57d;
+    }
+    .buttom_p{
+        font-size: 30px;
+        margin-top: 6px;
+        color: #c4a57d;
+    }
+    .buttom_p1{
+        font-size: 30px;
+        color: #c4a57d;
+    }
+    .title{
+        color: #ffffff;
+        font-size:16px;
+        text-align: center;
+        line-height: 32px;
+        margin: 0 auto;
+        width: 645px;
+        padding-top: 80px;
+    }
+/*1楼*/
+#sections>.section1{
+    height: 710px;
+    background:url(../img/process/s1-bg.jpg);
+}
+#sections>.section1>.banner1{
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+}
+#sections>.section1>.banner1>div{
+    position: absolute;
+    top: 287px;
+    right: 114px;
+    text-align: center;
+}
+/*2楼*/
+#sections>.section2{
+    height: 770px;
+    background:url(../img/process/s2-bg.jpg);
+}
+#sections>.section2>.banner2{
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+}
+#sections>.section2>.banner2>div{
+    position: absolute;
+    top: 100px;
+}
+/*3楼*/
+#sections>.section3{
+    height: 230px;
+}
+#sections>.section3>.banner3{
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+}
+/*4楼*/
+#sections>.section4{
+    height: 770px;
+    background:url(../img/process/s3-bg.jpg);
+}
+#sections>.section4>.banner4{
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+}
+#sections>.section4>.banner4>div{
+    position: absolute;
+    top: 252px;
+    right: 50px;
+}
+/*5楼*/
+#sections>.section5{
+    height: 230px;
+}
+#sections>.section5>.banner5{
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+}
+/*6楼*/
+#sections>.section6{
+    height: 770px;
+    background:url(../img/process/s4-bg.png);
+}
+#sections>.section6>.banner6{
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+}
+#sections>.section6>.banner6>div{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -215px;
+}
+#sections>.section6>.banner6>ul{
+    position: absolute;
+    top:510px ;
+    height: 93px;
+    width: 1280px;
+    left: -22px;
+    color:#916f53 ;
+}
+#sections>.section6>.banner6>ul>li{
+    float: left;
+    width: 160px;
+    text-align: center;
+}
+#sections>.section6>.banner6>ul>li>p:nth-child(1){
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 800;
+}
+#sections>.section6>.banner6>ul>li>p:nth-child(1){
+    line-height: 32px;
+    font-size:16px ;
+}

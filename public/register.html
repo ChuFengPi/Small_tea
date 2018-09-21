@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小罐茶</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div id="body">
+    <div id="head"></div>
+    <div id="main">
+        <div class="Title">注册小罐茶用户</div>
+        <div class="loginMain">
+            <div class="loginBox">
+                <div class="users">
+                    <input type="text" placeholder="中国(+86)" readonly="readonly">
+                </div>
+                <div class="users">
+                    <input id="phone" type="text" placeholder="请输入您的手机(必填)" value="15511111111">
+                </div>
+                <span class="commonBox"></span>
+                <div class="verifyCode">
+                    <div>
+                        <input id="yzm" type="text" placeholder="请输入图形验证码">
+                    </div>
+                    <div class="img">
+                        <img id="setYzm" title="看不清点击换一张" src="http://127.0.0.1:8080/SmallTea/public/data/00_code.php" />
+                    </div>
+                </div>
+                <div class="verifyCode">
+                    <div>
+                        <input id="yxz1" type="text" placeholder="请输入您的手机验证码">
+                    </div>
+                    <div id="send">
+                        发送
+                    </div>
+                </div>
+                <span class="commonBox2"></span>
+                <div class="nextBtn" id="nextBtn">下一步</div>
+            </div>
+            <div class="passwordBox">
+                <span class="bl">
+                    您注册的手机号为
+                    <i>15511111111</i>
+                </span>
+                <span class="bl">请设置您的密码:</span>
+                <div class="typePassword" id="typePassword1">
+                    <input type="password" placeholder="请输入您的密码(必填)">
+                </div>
+                <p id="upwd1"></p>
+                <div class="typePassword" id="typePassword2">
+                    <input type="password" placeholder="请输入您的密码(必填)">
+                </div>
+                <p id="upwd2"></p>
+                <span class="bl">密码长度8-16位，数字、字母、字符至少包含两种</span>
+                <div class="submitBtn" id="submitBtn">立即注册</div>
+            </div>
+        </div>
+        <div class="loginFooter">
+            <div class="clears">
+                <p>如果您已经有小罐茶账户，则可在此 <a href="login.html">登录</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_body">
+            <div class="toEnsure">
+                <img src="img/register/telephone.png" alt="">
+                <span>(400-004-5028)</span>
+                <img src="img/register/seven.png" alt="">
+                <img src="img/register/fiften.png" alt="">
+                <img src="img/register/sf.png" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="">订单操作</a>
+                </li>
+                <li>
+                    <a href="">官方微信</a>
+                </li>
+                <li>
+                    <a href="">联系我们</a>
+                </li>
+                <li>
+                    <a href="">方位查询</a>
+                </li>
+                <li>
+                    <a href="">零售网店</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="layer">
+        <div class="popBox">
+            <div class="hint">
+                <i>×</i>
+            </div>
+            <div class="saved">
+                <div class="saveCenter">
+                    <i></i>
+                    <span>
+                        图形验证码错误！
+                    </span>
+                </div>
+            </div>
+            <div class="btnBox">
+                <span>返回</span>
+            </div>
+        </div>
+    </div>
+    <div class="tools-bar">
+        <div class="rnav">
+            <a href="">
+                <img src="img/register/zixunkefu.png" alt="">
+            </a>
+            <a href="" class="Focus">
+                <img src="img/register/guanzhuwomen.png" alt="">
+            </a>
+            <a href="" class="phone">
+                <img src="img/register/tel.png" alt="">
+            </a>
+        </div>
+        <div class="nav-content">
+            <div>
+                <img src="img/register/weixinshangcheng.png" alt="">
+            </div>
+        </div>
+        <div class="nav-content1">
+            <div>
+                <img src="img/register/telphone.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/homeheader.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

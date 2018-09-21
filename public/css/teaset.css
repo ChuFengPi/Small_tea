@@ -1,0 +1,356 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#body{
+    width: 1420px;
+    margin: 0px auto;
+}
+/*通用*/
+.title{
+    color:#ccac82 ;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+.desc{
+    color: #fff;
+    font-size: 16px;
+    width: 960px;
+    margin: 0 auto;
+}
+.theme{
+    position: absolute;
+    z-index: 10;
+    font-size: 52px;
+    color: #caa378;
+    top: 40px;
+    left: 50%;
+    margin-left: -187px;
+}
+/*顶部的状态*/
+#header>.wrapper>.nav>:nth-child(3)>a{
+    color: #fff;
+    border: 0px solid transparent;
+    border-bottom: 3px solid #fff;
+}
+/*头部导航*/
+/*立即购买*/
+.top{
+    height: 61px;
+}
+.header-nav{
+    background-color: #1f1d1e;
+    height: 61px;
+    border-bottom: 1px solid #36383a;
+    position: relative;
+}
+.suspension{
+    position: fixed;
+    width: 1420px;
+    z-index: 99;
+    top: 0;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+.header-nav>.wrappers{
+    margin: 0 auto;
+    width: 1220px;
+    height: 100%;
+    background: #1f1d1e;
+}
+.header-nav>.wrappers>a{
+    color: #916f53;
+    float: right;
+    width: 138px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #916f53;
+    margin: 13px 0 0 40px;
+    font-size: 14px;
+}
+.header-nav>.wrappers>a:hover{
+    background-color: #ccac82;
+    color: #2d2522;
+    border: 1px solid #CCAC85;
+}
+/*分页*/
+.header-nav>.wrappers>div{
+    float: right;
+    height: 57px;
+    margin-right: 140px;
+}
+.header-nav>.wrappers>div>a{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 57px;
+    border: 0px solid red;
+    margin: 0 12px;
+    color: #916f53;
+}
+.header-nav>.wrappers>div>a:hover{
+    border-bottom: 3px solid #ccac82;
+    color: #ccac82;
+}
+.header-nav>.wrappers>span{
+    float: left;
+    color: #916f53;
+    height: 57px;
+    line-height: 57px;
+}
+/*页面主题部分*/
+/*1楼*/
+#sections>.section1{
+    height: 701px;
+    background: url(../img/teaset/s1-bg.jpg)no-repeat center center;
+    width: 1420px;
+    position: relative;
+}
+#sections>.section1>.banner{
+    width: 1220px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#sections>.section1>.banner>.text{
+    position: absolute;
+    width: 650px;
+    left: 50%;
+    margin-left: -325px;
+    top: 100px;
+}
+#sections>.section1>.banner>.text>p{
+    color: #8b735b;
+    font-size: 35px;
+}
+.text-point{
+    position: absolute;
+    bottom: 100px;
+    color: #8b735b;
+    font-size: 16px;
+}
+.txt2{
+    left: 150px;
+}
+.txt3{
+    left: 270px;
+}
+.txt4{
+    left: 400px;
+}
+.txt5{
+    left: 580px;
+}
+.txt6{
+    left: 800px;
+}
+.txt7{
+    left: 1055px;
+}
+/*2楼*/
+#sections>.section2{
+    height: 720px;
+    width: 100%;
+    position: relative;
+}
+#sections>.section2>.banner2{
+    position: relative;
+    width: 1420px;
+    height: 100%;
+}
+#sections>.section2>.banner2>.viewport{
+    position: relative;
+    height: 100%;
+}
+#sections>.section2>.banner2>.viewport>.outsourcing{
+    width: 1420px;
+    overflow: hidden;
+}
+.slider{
+    position: relative;
+}
+#sections>.section2>.banner2>.viewport>.outsourcing>.slider>li{
+    display: inline-block;
+    float: left;
+}
+/*原点样式*/
+#sections>.section2>.banner2>.viewport>.bx-controls{
+    position: relative;
+}
+#sections>.section2>.banner2>.viewport>.bx-controls>.bx-pager-item{
+    bottom: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -61px;
+}
+#sections>.section2>.banner2>.viewport>.bx-controls>.bx-pager-item>div{
+    display: inline-block;
+}
+.bx-pager-link{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius:50%;
+    background:url(../img/product/point@2x.png) no-repeat -34px 0;
+    background-size: 48px 14px;
+    margin: 0 10px;
+}
+.active{
+    background-position: 0 0;
+}
+.bx-pager-link:hover{
+    background-position: 0 0;
+}
+#sections>.section2>.banner2>.viewport>.prev{
+    width: 22px;
+    height: 46px;
+    position: absolute;
+    top:50%;
+    margin-top: -46px;
+    left: 50px;
+    background: url(../img/product/control@2x.png) no-repeat ;
+    background-size: 160px 44px;
+}
+#sections>.section2>.banner2>.viewport>.prev:hover{
+    background-position: -32px 0;
+}
+#sections>.section2>.banner2>.viewport>.next{
+    width: 22px;
+    height: 46px;
+    position: absolute;
+    top:50%;
+    right: 50px;
+    margin-top: -46px;
+    background: url(../img/product/control@2x.png) no-repeat -138px 0;
+    background-size: 160px 44px;
+}
+#sections>.section2>.banner2>.viewport>.next:hover{
+    background-position: -106px 0;
+}
+/*3楼*/
+#sections>.section3{
+    padding: 80px 0;
+}
+#sections>.section3>.banner3{
+    text-align: center;
+    width: 1220px;
+    margin: 0 auto;
+}
+/*4楼*/
+#sections>.section4{
+    background: url(../img/teaset/s8-bg.jpg);
+    height: 846px;
+    position: relative;
+}
+#sections>.section4>.banner4>.theme{
+    top: 100px;
+}
+/*5楼*/
+#sections>.section5{
+    padding: 80px 0;
+}
+#sections>.section5>.banner5{
+    text-align: center;
+    width: 1220px;
+    margin: 0 auto;
+}
+/*6楼*/
+#sections>.section6{
+    background: url(../img/teaset/s10-bg.jpg) no-repeat;
+    height: 770px;
+    position: relative;
+}
+#sections>.section6>.banner6>.theme{
+    top:220px;
+    left: 80%;
+}
+/*7楼*/
+#sections>.section7{
+    padding: 80px 0;
+}
+#sections>.section7>.banner7{
+    text-align: center;
+    width: 1220px;
+    margin: 0 auto;
+}
+/*8楼*/
+#sections>.section8{
+    background: url(../img/teaset/s12-bg.jpg) no-repeat;
+    height: 770px;
+    position: relative;
+}
+#sections>.section8>.banner8>.theme{
+    top:100px;
+    margin-left:-286px;
+}
+/*9楼*/
+#sections>.section9{
+    padding: 80px 0;
+}
+#sections>.section9>.banner9{
+    text-align: center;
+    width: 1220px;
+    margin: 0 auto;
+}
+/*10楼*/
+#sections>.section10{
+    padding: 80px 0;
+}
+#sections>.section10>.banner10{
+    text-align: center;
+    width: 1220px;
+    margin: 0 auto;
+}
+#sections>.section10>.banner10>ul{
+    width: 1218px;
+    margin: 0 auto;
+    display: block;
+    height:344px ;
+}
+#sections>.section10>.banner10>ul>li{
+    border-right: 1px solid #2d2522;
+    width: 243px;
+    float: left;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#sections>.section10>.banner10>ul>li:nth-child(5){
+    border-right: 0px solid #2d2522;
+}
+#sections>.section10>.banner10>ul>li>div{
+    font-size: 26px;
+    color: #c4a57d;
+    padding: 200px 0 36px;
+    width: 100%;
+}
+#sections>.section10>.banner10>ul>li:nth-child(1)>div{
+    background: url(../img/teaset/1.png)no-repeat;
+}
+#sections>.section10>.banner10>ul>li:nth-child(2)>div{
+    background: url(../img/teaset/2.png)no-repeat;
+}
+#sections>.section10>.banner10>ul>li:nth-child(3)>div{
+    background: url(../img/teaset/3.png)no-repeat;
+}
+#sections>.section10>.banner10>ul>li:nth-child(4)>div{
+    background: url(../img/teaset/4.png)no-repeat;
+}
+#sections>.section10>.banner10>ul>li:nth-child(5)>div{
+    background: url(../img/teaset/5.png)no-repeat;
+}
+#sections>.section10>.banner10>ul>li>a{
+    color: #916f53;
+    width: 172px;
+    border: 1px solid #916f53;
+    line-height: 41px;
+    height: 41px;
+    display: block;
+    left: 50%;
+    position: relative;
+    margin-left: -86px;
+}
+#sections>.section10>.banner10>ul>li>a:hover{
+    background-color:#916f53 ;
+    color: #000000;
+}

@@ -1,0 +1,413 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#body{
+    width: 1420px;
+    margin: 0px auto;
+}
+/*顶部的状态*/
+#header>.wrapper>.nav>:nth-child(2)>a{
+    color: #fff;
+    border: 0px solid transparent;
+    border-bottom: 3px solid #fff;
+}
+/*顶部的状态*/
+.top{
+    height: 60px;
+}
+.header-nav{
+    background-color: #18181a;
+    height: 60px;
+    position: relative;
+}
+.suspension{
+    position: fixed;
+    width: 1420px;
+    z-index: 99;
+    top: 0;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+.header-nav>.wrappers{
+    margin: 0 auto;
+    width: 1220px;
+    height: 100%;
+}
+/*分页*/
+.header-nav>.wrappers>div{
+    float: right;
+    height: 57px;
+}
+.header-nav>.wrappers>div>a{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 57px;
+    border: 0px solid red;
+    margin: 0 0 0 29px;
+    color: #916f53;
+}
+.header-nav>.wrappers>div>a:nth-child(3){
+    border-bottom: 3px solid #ccac82;
+    color: #ccac82;
+}
+.header-nav>.wrappers>div>a:hover{
+    border-bottom: 3px solid #ccac82;
+    color: #ccac82;
+}
+.header-nav>.wrappers>span{
+    float: left;
+    color: #916f53;
+    height: 57px;
+    line-height: 57px;
+}
+/*1楼*/
+#sections>.section1{
+    height: 710px;
+    position: relative;
+}
+#sections>.section1>.full-img{
+    position: absolute;
+}
+#sections>.section1>.text{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-left: -570px;
+    text-align: center;
+    word-wrap: break-word;
+}
+#sections>.section1>.text>h3{
+    font-size: 48px;
+    color: #ccac82;
+    width: 75px;
+    margin: 0 auto;
+    line-height: 56px;
+}
+#sections>.section1>.text>div{
+    margin-top: 45px;
+    padding: 45px 0 0;
+    border-top: 1px solid #525252;
+    width: 155px;
+}
+#sections>.section1>.text>div>div{
+    margin: 0 auto;
+    display: inline-block;
+    color: #fff;
+}
+#sections>.section1>.text>div>div>p:nth-child(1){
+    width: 40px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 10px;
+    float: right;
+    line-height: 30px;
+    padding-right: 0;
+}
+#sections>.section1>.text>div>div>p:not(:nth-child(1)){
+    font-weight: 400;
+    padding: 0 5px;
+    width: 30px;
+    font-size: 16px;
+    line-height: 18px;
+    clear: both;
+    display: inline-block;
+}
+/*2楼*/
+#sections>.section2 {
+    height: 452px;
+    padding: 100px 0 20px;
+    position: relative;
+}
+#sections>.section2>div>a{
+    opacity: 0.8;
+}
+#sections>.section2>div>a:hover{
+    opacity: 1;
+}
+#sections>.section2>div>a>span{
+    background: url(../img/qiguowei/video-bg.jpg) no-repeat;
+    width: 900px;
+    height: 332px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+}
+#sections>.section2>div>a>i{
+    background: url(../img/qiguowei/video-btn.png) no-repeat;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 46%;
+    top: 230px;
+}
+/*3楼*/
+#sections>.section3{
+    padding-top: 40px;
+}
+#sections>.section3>.section-content{
+    padding-top: 135px;
+    position: relative;
+    width: 1280px;
+    left: 50%;
+    margin-left: -640px;
+}
+#sections>.section3>.section-content>.full-img{
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+}
+#sections>.section3>.section-content>.full-img>img{
+    display: block;
+    width: 100%;
+    height: 720px;
+}
+#sections>.section3>.section-content>.skill{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+#sections>.section3>.section-content>.detailed-words{
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 50px 0 60px;
+}
+#sections>.section3>.section-content>.detailed-words>h3{
+    font-size: 38px;
+    color: #ccac82;
+    padding-bottom: 40px;
+}
+#sections>.section3>.section-content>.detailed-words>p{
+    height: 30px;
+}
+/*4楼*/
+.section4{
+    padding: 90px 0 110px;
+    border-top: 1px solid #2d2522;
+    position: relative;
+    width: 100%;
+    height: 696px;
+}
+.section4>h3{
+    font-size: 38px;
+    text-align: center;
+    color:#ccac82 ;
+    position: absolute;
+    width: 100%;
+}
+.section4>.volatility{
+    padding-top: 135px;
+    position: relative;
+    width: 1280px;
+    left: 50%;
+    margin-left: -640px;
+    animation: big 1s linear;
+}
+.hidden{
+    padding-top: 135px;
+    position: relative;
+    width: 1280px;
+    left: 50%;
+    margin-left: -640px;
+    animation: small 1s linear;
+    opacity: 0;
+}
+@keyframes big {
+    0%{
+        opacity: 0;
+        transform: scale(.8);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes small{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    50%{
+        opacity: 0;
+        transform: scale(.8);
+    }
+}
+.banner-list>div:nth-child(3){
+    width: 1170px;
+    height: 360px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner-list>div:nth-child(3)>ul{
+    position: absolute;
+}
+.cooked{
+    background: url(../img/wangshunming/section-banner.png)repeat-x ;
+}
+.cook{
+    background: url(../img/wangshunming/section-banner2.png)repeat-x ;
+}
+.banner-list>div:nth-child(3)>ul>li{
+    float: left;
+    width: 260px;
+    height: 360px;
+    margin: 0 65px;
+    display: block;
+}
+.banner-list>div:nth-child(3)>ul>li>p{
+    color: #916f53;
+    font-size: 22px;
+    text-align: center;
+    margin-top:30px ;
+}
+/*左右播放按钮*/
+.Left-move{
+    width: 44px;
+    height: 260px;
+    overflow: hidden;
+    float: left;
+    z-index: 99;
+}
+.Left-move>a{
+    background: url(../img/zoubingliang/before2.png)no-repeat ;
+    background-size: 22px 44px;
+    height: 66px;
+    width: 100%;
+    display: block;
+    margin-top: 97px;
+}
+.Left-move>a:hover{
+    background: url(../img/zoubingliang/before2hover.png)no-repeat;
+    background-size: 22px 44px;
+}
+.Right-move{
+    width: 44px;
+    height: 260px;
+    overflow: hidden;
+    float: right;
+}
+.Right-move>a{
+    background: url(../img/zoubingliang/after2.png)no-repeat ;
+    background-size: 22px 44px;
+    height: 66px;
+    width: 100%;
+    display: block;
+    margin-top: 97px;
+}
+.Right-move>a:hover{
+    background: url(../img/zoubingliang/after2hover.png)no-repeat;
+    background-size: 22px 44px;
+}
+/*5楼*/
+.section5{
+    height: 720px;
+    position: relative;
+}
+.section5>div:nth-child(2){
+    position: absolute;
+    top: 64px;
+    z-index: 100;
+    left: 50%;
+    margin-left: -605px;
+}
+.section5>div:nth-child(2)>h3{
+    color: #c4a57d;
+    font-size: 38px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.section5>div:nth-child(2)>p{
+    color: #fff;
+    line-height: 30px;
+}
+/*6楼*/
+.section6{
+    height:720px;
+    position: relative;
+}
+.section6>div:nth-child(2)>h3{
+    color: #c4a57d;
+    font-size: 40px;
+    position: absolute;
+    line-height: 65px;
+    top: 200px;
+    left: 100px;
+}
+/*7楼*/
+.tea{
+    height: 720px;
+    position: relative;
+}
+.tea>div:nth-child(2){
+    position: absolute;
+    right: 50%;
+    top: 190px;
+    width: 400px;
+    margin-right: -540px;
+}
+.tea>div:nth-child(2)>h3{
+    font-size: 38px;
+    text-align: center;
+    color: #c4a57d;
+    margin-bottom: 35px;
+}
+.tea>div:nth-child(2)>p{
+    border-top: 2px solid #38393a;
+    border-bottom: 2px solid #38393a;
+    margin-bottom: 40px;
+    position: relative;
+}
+.tea>div:nth-child(2)>p>span{
+    height: 50px;
+    display: block;
+    color: #8f9199;
+    line-height: 50px;
+    font-weight: 500;
+}
+.tea>div:nth-child(2)>p>span>label{
+    padding-left: 14px;
+}
+.tea>div:nth-child(2)>p>span>label:nth-child(1){
+    width: 50%;
+    height: 100%;
+    float: left;
+    height: 50px;
+    display: block;
+}
+.tea>div:nth-child(2)>p>span>label:nth-child(2){
+    border-left: 1px dashed #242425;
+    height: 50px;
+    display: inline-block;
+}
+.tea>div:nth-child(2)>p>span>label>em{
+    color: #7e7f86;
+    font-style: normal;
+}
+.tea>div:nth-child(2)>p>span:not(:nth-child(1)){
+    border-top:1px solid #38393a;
+}
+.tea>div:nth-child(2)>a{
+    width: 172px;
+    height: 40px;
+    margin: 25px auto 0;
+    display: block;
+    color: #916f53;
+    border: 1px solid #916f53;
+    text-align: center;
+    line-height: 40px;
+}
+.tea>div:nth-child(2)>a:hover{
+    color: #2d2522;
+    border: 1px solid #ccac82;
+    background: #ccac82;
+}
+/*底部*/
+#footer{
+    margin-top: 100px;
+}

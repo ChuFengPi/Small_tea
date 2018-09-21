@@ -1,0 +1,26 @@
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color: #5f4838;
+}
+img{
+    vertical-align:middle;
+}
+.lf{
+    float:left;
+}
+.rf{
+    float:right;
+}
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+body{
+    background-color: #000;
+}

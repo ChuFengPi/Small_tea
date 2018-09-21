@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+/*头部背景*/
+#header{
+    width: 1420px;
+    height: 79px;
+    background-color: #846850;
+    margin: 0 auto;
+}
+/*头部容器*/
+.wrapper{
+    width: 1220px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper>a{
+    position: absolute;
+}
+.wrapper>a>img{
+    height: 42px;
+    width: 92px;
+    position: relative;
+    top: 21px;
+}
+.wrapper>a>span{
+    display: none;
+}
+/*头部导航栏*/
+.nav{
+    padding-left: 170px;
+    height: 100%;
+
+}
+.nav-item{
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    margin: 0 30px;
+}
+.nav-item>a{
+    height: 100%;
+    line-height: 79px;
+    font-size: 14px;
+    color: #e1d1b9;
+    display: block;
+    box-sizing: border-box;
+}
+.nav-item>a:hover{
+    color: #fff;
+    border: 0px solid transparent;
+    border-bottom: 3px solid #fff;
+}
+.nav-item:nth-child(6)>a{
+    color: #fff;
+    border: 0px solid transparent;
+    border-bottom: 3px solid #fff;
+    box-sizing: border-box;
+}
+/*头部右侧*/
+.quick{
+    position: absolute;
+    top: 24px;
+    right: -8px;
+}
+.quick>span{
+    width: 1px;
+    height: 12px;
+    background: #b1977d;
+    margin: 9px 12px;
+    float: left;
+    display: inline-block;
+}
+.ipt{
+    width: 20px;
+    height: 20px;
+    padding: 4px 5px 4px 2px;
+    border: 1px solid #89674c;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+}
+#ipl>span{
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: url(../img/header/icon2x.png) -50px 0 no-repeat;
+    background-size: 67px 43px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ipl{
+    width: 160px;
+    height: 20px;
+    padding: 4px 5px;
+    border: 1px solid #e1d1b9;
+    border-radius: 3px;
+    margin-right: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.quick input{
+    position: relative;
+    left: 0;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #e1d1b9;
+}
+.quick input:focus{
+    outline:0 !important;
+}
+.quick input::-webkit-input-placeholder {
+    color: #e1d1b9;
+}
+.personal{
+    width: 20px;
+    height: 20px;
+    padding: 5px 0 0 0;
+    overflow: hidden;
+    float: right;
+    display: inline-block;
+}
+.personal>a>span{
+    background: url(../img/header/icon2x.png) no-repeat;
+    background-size: 67px 43px ;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    display:block;
+}
+.personalBoxLB{
+    width: 92px;
+    position: relative;
+    float: right;
+    display: none;
+}
+.sonal{
+    display: block;
+    height: 19px;
+    line-height: 19px;
+    padding: 5px 10px 5px 15px;
+    font-size: 14px;
+    color: #e1d1b9;
+    background: url(../img/home/dot-down.png)right -38px no-repeat;
+}
+.sonat{
+    background: url(../img/home/dot-down.png)right 4px no-repeat;;
+}
+.personalBoxLB>ul{
+    position: absolute;
+    left: 14px;
+    top: 54px;
+    cursor: pointer;
+    background: #89674c;
+    z-index: 10;
+    display: none;
+}
+.personalBoxLB>ul>li>a{
+    width: 65px;
+    height: 20px;
+    line-height: 20px;
+    color: #e1d1b9;
+    font-size: 14px;
+    padding: 5px 10px;
+    display: block;
+}
